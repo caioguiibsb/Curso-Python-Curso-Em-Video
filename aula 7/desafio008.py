@@ -2,4 +2,4 @@
 tamanho=float(input('Digite a metragem a ser calculada: '))
 centimetros=tamanho*100
 milimetros=tamanho*1000
-print(f'O tamanho de {tamanho}mts convertido em centimetros é {centimetros} e convertido em milimetros é {milimetros}!')
+print(f'O tamanho de {tamanho}mts convertido em centimetros é {centimetros}cm e convertido em milimetros é {milimetros}mm!')
