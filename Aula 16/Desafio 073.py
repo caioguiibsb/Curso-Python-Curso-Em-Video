@@ -1,0 +1,10 @@
+#crie uma tupla preenchida com os 20 primeiros colocados da tabela do brasileirao, na ordem de colocacao. Depois mostre A) apenas os 5 primeiros colodos. B)Os ultmos 4 colocados da tabela. C) uma lista com os times em ordem alfabetica. D)Em que posicao na tabela esta o time chapecoense
+time=('Palmeiras', 'Botafogo', 'Internacional', 'Fortaleza', 'Flamengo', 'São Paulo', 'Cruzeiro', 'Bahia', 'Corinthians', 'Atlético-MG', 'Grêmio', 'Fluminense', 'Athletico-PR', 'Bragantino', 'Santos', 'Cuiabá', 'Vasco', 'Goiás', 'Coritiba', 'América-MG')
+print(f'Os 5 primeiros colocados da tabela sao: {time[0:5]}')
+print('='*100)
+print(f'Os 4 ultimos colocados da tabela sao: {time[-4:]}')
+print('='*100)
+print(f'Times em ordem alfabetica{sorted(time)}')
+print('='*100)
+sant=time.index('Santos')
+print(f'O time Santos esta na {sant} posicao:')
