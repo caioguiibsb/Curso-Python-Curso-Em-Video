@@ -10,5 +10,5 @@ print(f'O numero 9 apareceu {tup.count(9)} vezes')
 if tup.count(3) <= 0:
     print('O valor 3 nao foi digitado em nenhuma posicao')
 else:
-    print(f'O numero 3 foi digitado na posicao {tup.index(3)}+1')
+    print(f'O numero 3 foi digitado na posicao {tup.index(3)+1}')
 print(f'Os numeros pares foram: {pares}')
