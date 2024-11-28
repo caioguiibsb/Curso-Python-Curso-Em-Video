@@ -1,4 +1,4 @@
-"""num=[2, 5, 9, 1,2]
+num=[2, 5, 9, 1,2]
 num[3] = 4
 num.append(7)
 print(num)
@@ -13,7 +13,7 @@ if 2 in num:
 else:
     print('Nao achei o numero')
 print(num)
-print(f'Essa lista tem {len(num)} elementos.')"""
+print(f'Essa lista tem {len(num)} elementos.')
 
 valores = []
 valores.append(5)
