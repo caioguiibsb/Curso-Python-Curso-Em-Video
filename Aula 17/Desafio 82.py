@@ -14,5 +14,6 @@ for numero in listaMae:
         listaPar.append(numero)
     else:
         listaImpar.append(numero)
+print("Lista completa é :", listaMae)
 print("Lista de números pares:", listaPar)
 print("Lista de números ímpares:", listaImpar)
